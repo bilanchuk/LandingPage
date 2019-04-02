@@ -1,0 +1,42 @@
+@import "fonts.less";
+@imageHeight: 50vw;
+@RobotoFont: "Roboto";
+@firstSize:2vw;
+@firstColor:#ffffff;
+@borderedBgColor: #b9cce1;
+@borderedWidth: 38vw;
+@marginTwo:2vw;
+
+@font-face{
+    .font(@RobotoFont);
+}
+
+.whatWeDo{
+    height: @imageHeight;
+    background-image: url("../images/Some.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .whatOne{
+        font-family: @RobotoFont;
+        font-size: @firstSize;
+        color: @firstColor;
+        font-weight: bolder;
+    }
+    .whatTwo{
+        font-family: @RobotoFont;
+        font-size: @firstSize+0.7;
+        color: @firstColor;
+    }
+    .withBorder{
+        margin-top:@marginTwo !important;
+        margin-bottom:@marginTwo !important;
+        font-family: @RobotoFont;
+        font-size: @firstSize+1;
+        padding: 0.1vw !important;
+        color: @firstColor;
+        background-color:@borderedBgColor;
+        width: @borderedWidth;
+        border: 1px solid white;
+    }
+
+}

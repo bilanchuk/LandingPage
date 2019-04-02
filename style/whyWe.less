@@ -1,0 +1,51 @@
+@import "fonts.less";
+@whyWeHeight:40vw;
+@RobotoFont:'Roboto';
+@whyFirstSize:1.9vw;
+@whyBottomSize:0.9vw;
+@wdthHghtForImg:10.5vw;
+@colorForImg:#f7f7f7;
+@borderRad:150px;
+@BgColor:#f0f0f2;
+@ColorForChart:#38c9de;
+
+@font-face{
+    .font(@RobotoFont);
+}
+.whyWe{
+    height: @whyWeHeight;
+    background-color: @BgColor;
+    .whyFirst{
+        font-family: @RobotoFont;
+        font-size: @whyFirstSize;
+        font-weight: 100;
+        white-space: nowrap;
+        height: 10%;
+    }
+    .whySecond{
+        max-width: 100%;
+        height: 70%;
+        .row-item-whyWe{
+          margin-right:6vw !important;
+          .doCircle{
+              height: @wdthHghtForImg;
+              width: @wdthHghtForImg;
+              background-color: @colorForImg;
+              border-radius: @borderRad;
+              margin-bottom:1.5vw !important;
+              img{
+                  height: 69px;
+                  width: 51px;
+              }
+          }
+          .doText{
+              font-family: @RobotoFont;
+              font-weight: bold;
+              font-size: @whyBottomSize;
+          }
+          #whiteChart{
+              background-color:@ColorForChart;
+          }
+        }
+        }
+}

@@ -1,0 +1,38 @@
+@import 'fonts.less';
+
+@height:80vh;
+@RobotoFont:'Roboto';
+@firstColor:#3b3b3b;
+
+@font-face{
+    .font(@RobotoFont);
+}
+
+.map{
+    height: @height;
+    background-image:url(../images/Map.png);
+    #form{
+        background-color: white;
+        height: 65%;
+        width: 25%;
+        position: relative;
+        left: 15%;
+        font-family: @RobotoFont;
+        font-weight: 100;
+        div{
+            margin-bottom: 5% !important;
+        }
+        #formFirst{
+            font-size: 2vw;
+            color: @firstColor;
+        }
+        .inp{
+            input{
+                width: 18vw;
+                text-align: center;
+                font-size: 1vw;
+            }
+        }
+    }
+
+}

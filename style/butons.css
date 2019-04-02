@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Roboto-Black';
+  src: url('/fonts/Roboto-Black/Roboto-Black.eot');
+  src: url('/fonts/Roboto-Black/Roboto-Black.eot#iefix') format('embedded-opentype'), url('fonts/Roboto-Black/Roboto-Black.ttf') format('truetype');
+}
+.btn-call {
+  width: 18vw;
+  height: 3vw;
+  border: 0;
+  font-size: 0.9vw;
+  color: #ffffff;
+  font-family: 'Roboto-Black';
+  white-space: nowrap;
+  font-weight: bold;
+  padding: 5px;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZGllbnQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIxMDAlIiB4Mj0iMTAwJSIgeTI9IjAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjNWJjY2FmIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMzRjOWUyIi8+PC9saW5lYXJHcmFkaWVudD48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWRpZW50KSIgLz48L3N2Zz4=');
+}
+.btn-send {
+  width: 14vw;
+}

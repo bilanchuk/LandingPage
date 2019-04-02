@@ -1,0 +1,30 @@
+@import "fonts.less";
+
+@widthCall: 18vw;
+@heightCall: 3vw;
+@btn-color:#ffffff;
+@btn-fontSize:0.9vw;
+@RobotoBlackFont:'Roboto-Black';
+@GradFirstColor:#5bccaf;
+@GradSecondColor:#34c9e2;
+
+
+@font-face{
+    .font(@RobotoBlackFont);
+}
+.btn-call{
+    width: @widthCall;
+    height: @heightCall;
+    border: 0;
+    font-size: @btn-fontSize;
+    color: @btn-color;
+    font-family: @RobotoBlackFont;
+    white-space: nowrap;
+    font-weight: bold;
+    padding: 5px;
+    background-image: svg-gradient(to top right,@GradFirstColor,@GradSecondColor);
+}
+
+.btn-send{
+    width: 14vw;
+}

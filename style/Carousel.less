@@ -1,0 +1,63 @@
+@import 'fonts.less';
+
+@CarouselHeight:40vw;
+@RobotoFont:'Roboto';
+@FontSizeTop:1.8vw;
+@FontSizeBottom:1vw;
+
+@font-face{
+    .font(@RobotoFont);
+}
+
+.Carousel{
+    width: 100%;
+    height: @CarouselHeight;
+    background-image: url("../images/CarBg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .leftArr, .rightArr{
+      margin-left: 5vw !important;
+      background-image: url(../images/LeftArrow.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 4.5vw;
+      width: 4.5vw;
+    }
+    .devices{
+      height: 20vw;
+      width: 30vw;
+      background-image: url(../images/Devices.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+    .rightArr{
+      background-image: url(../images/RightArr.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin-left: 10vw !important;
+    }
+    .fa-angle-left, .fa-right{
+        font-size: 1.7vw;
+        font-weight:bold;
+        color: white;
+    }
+    .textCarsl{
+        .allTxt{
+            font-style: @RobotoFont;
+            color: white;
+            margin-bottom: 1.5vw !important;
+        }
+        #firstText{
+            font-weight: bold;
+            font-size: @FontSizeTop;
+        }
+        #secText{
+            font-size: @FontSizeBottom;
+            font-weight: 100;
+        }
+        #thrdText{
+            font-weight: bold;
+            font-size: @FontSizeBottom;
+        }
+    }
+}

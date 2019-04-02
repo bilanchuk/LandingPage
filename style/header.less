@@ -1,0 +1,79 @@
+@import "fonts.less";
+
+@OswFont: 'Oswald';
+@RobotoFont: 'Roboto';
+@RobotoLight: 'Roboto-Light';
+@colorHead: #95b8f8;
+@colorTopLogoLeft: #50cbbe;
+@colorTopLogoRight: #3b3b3b;
+@colorIconHome: #42cad0;
+@colorMenuHover:#59cbfa;
+@colorIconPhone:#858587;
+@ColorHeaderLeftBorder:#98befc;
+@RobotoBlackFont:'Roboto-Black';
+@HeaderHeight:auto;
+
+@font-face{
+    .font(@OswFont);
+}
+@font-face{
+    .font(@RobotoFont);
+}
+@font-face{
+    .font(@RobotoLight);
+}
+@font-face{
+    .font(@RobotoBlackFont);
+}
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.wrapAll{
+  border-left:3px solid  @ColorHeaderLeftBorder;
+  height: @HeaderHeight;
+  .header{
+      margin-left: 8vw !important;
+      .logo{
+        margin-right: 1.5vw !important;
+        .topLogo{
+          font-family:@OswFont;
+          font-size: 2.9vw;
+          #topLogoFirst{
+            color: @colorTopLogoLeft;
+          }
+          #topLogoSecond{
+            color: @colorTopLogoRight;
+          }
+        }
+        .bottomLogo{
+          font-family: @RobotoFont;
+          font-size: 1.12vw;
+        }
+      }
+      .fa-home{
+           margin-right: 1.5vw !important;
+           color: @colorIconHome;
+       }
+       .menu{
+            margin-right: 0.9vw !important;
+            font-family: @RobotoLight;
+            font-size: 0.9vw;;
+            &:hover{
+                border-bottom: 2px solid @colorMenuHover;
+                cursor: pointer;
+            }
+        }
+        .fa-phone, .fa-clock{
+           margin-right: 1.5vw !important;
+           color:@colorIconPhone;
+       }
+       .phoneNumber{
+           margin-right: 1.5vw !important;
+           font-family: @RobotoBlackFont;
+           font-size: 0.7vw;
+           font-weight: bold;
+           color: @colorTopLogoRight;
+       }
+  }
+}

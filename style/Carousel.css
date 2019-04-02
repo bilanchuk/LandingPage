@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto/Roboto.eot');
+  src: url('/fonts/Roboto/Roboto.eot#iefix') format('embedded-opentype'), url('fonts/Roboto/Roboto.ttf') format('truetype');
+}
+.Carousel {
+  width: 100%;
+  height: 40vw;
+  background-image: url("../images/CarBg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Carousel .leftArr,
+.Carousel .rightArr {
+  margin-left: 5vw !important;
+  background-image: url(../images/LeftArrow.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 4.5vw;
+  width: 4.5vw;
+}
+.Carousel .devices {
+  height: 20vw;
+  width: 30vw;
+  background-image: url(../images/Devices.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.Carousel .rightArr {
+  background-image: url(../images/RightArr.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 10vw !important;
+}
+.Carousel .fa-angle-left,
+.Carousel .fa-right {
+  font-size: 1.7vw;
+  font-weight: bold;
+  color: white;
+}
+.Carousel .textCarsl .allTxt {
+  font-style: 'Roboto';
+  color: white;
+  margin-bottom: 1.5vw !important;
+}
+.Carousel .textCarsl #firstText {
+  font-weight: bold;
+  font-size: 1.8vw;
+}
+.Carousel .textCarsl #secText {
+  font-size: 1vw;
+  font-weight: 100;
+}
+.Carousel .textCarsl #thrdText {
+  font-weight: bold;
+  font-size: 1vw;
+}

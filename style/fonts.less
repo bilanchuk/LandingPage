@@ -1,0 +1,6 @@
+.font(@fontName; @urlName: @fontName) {
+    font-family: '@{fontName}';
+    src: url('/fonts/@{urlName}/@{urlName}.eot');
+    src: url('/fonts/@{urlName}/@{urlName}.eot#iefix') format('embedded-opentype'),
+      url('fonts/@{urlName}/@{urlName}.ttf') format('truetype');
+  }

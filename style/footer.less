@@ -1,0 +1,47 @@
+@import "fonts.less";
+
+@height:11vh;
+@bgColor:#f0f0f2;
+@OswFont: 'Oswald';
+@RobotoFont: 'Roboto';
+@colorTopLogoLeft: #50cbbe;
+@colorTopLogoRight: #3b3b3b;
+
+@font-face{
+    .font(@OswFont);
+}
+@font-face{
+    .font(@RobotoFont);
+}
+.footer{
+    height: @height;
+    background-color: @bgColor;
+    .footLogo{
+        position: relative;
+        left: 15%;
+        font-family:@OswFont;
+        font-size: 1.4vw;
+        font-weight: bolder;
+        #frstTop{
+            color: @colorTopLogoLeft;
+        }
+        #scndTop{
+            color: @colorTopLogoRight;
+        }
+        #btmLogo{
+            white-space: nowrap;
+            font-family: @RobotoFont;
+            font-size: 0.8vw;
+            font-weight: 100;
+        }
+    }
+    .copyRight{
+        position: absolute;
+        right: 15%;
+        font-size: 1vw;
+        font-family: @RobotoFont;
+        font-weight: 100;
+        color: @colorTopLogoRight;
+    }
+
+}

@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto/Roboto.eot');
+  src: url('/fonts/Roboto/Roboto.eot#iefix') format('embedded-opentype'), url('fonts/Roboto/Roboto.ttf') format('truetype');
+}
+.whyWe {
+  height: 40vw;
+  background-color: #f0f0f2;
+}
+.whyWe .whyFirst {
+  font-family: 'Roboto';
+  font-size: 1.9vw;
+  font-weight: 100;
+  white-space: nowrap;
+  height: 10%;
+}
+.whyWe .whySecond {
+  max-width: 100%;
+  height: 70%;
+}
+.whyWe .whySecond .row-item-whyWe {
+  margin-right: 6vw !important;
+}
+.whyWe .whySecond .row-item-whyWe .doCircle {
+  height: 10.5vw;
+  width: 10.5vw;
+  background-color: #f7f7f7;
+  border-radius: 150px;
+  margin-bottom: 1.5vw !important;
+}
+.whyWe .whySecond .row-item-whyWe .doCircle img {
+  height: 69px;
+  width: 51px;
+}
+.whyWe .whySecond .row-item-whyWe .doText {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 0.9vw;
+}
+.whyWe .whySecond .row-item-whyWe #whiteChart {
+  background-color: #38c9de;
+}

@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Oswald';
+  src: url('/fonts/Oswald/Oswald.eot');
+  src: url('/fonts/Oswald/Oswald.eot#iefix') format('embedded-opentype'), url('fonts/Oswald/Oswald.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto/Roboto.eot');
+  src: url('/fonts/Roboto/Roboto.eot#iefix') format('embedded-opentype'), url('fonts/Roboto/Roboto.ttf') format('truetype');
+}
+.footer {
+  height: 11vh;
+  background-color: #f0f0f2;
+}
+.footer .footLogo {
+  position: relative;
+  left: 15%;
+  font-family: 'Oswald';
+  font-size: 1.4vw;
+  font-weight: bolder;
+}
+.footer .footLogo #frstTop {
+  color: #50cbbe;
+}
+.footer .footLogo #scndTop {
+  color: #3b3b3b;
+}
+.footer .footLogo #btmLogo {
+  white-space: nowrap;
+  font-family: 'Roboto';
+  font-size: 0.8vw;
+  font-weight: 100;
+}
+.footer .copyRight {
+  position: absolute;
+  right: 15%;
+  font-size: 1vw;
+  font-family: 'Roboto';
+  font-weight: 100;
+  color: #3b3b3b;
+}

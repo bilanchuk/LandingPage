@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto/Roboto.eot');
+  src: url('/fonts/Roboto/Roboto.eot#iefix') format('embedded-opentype'), url('fonts/Roboto/Roboto.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Oswald';
+  src: url('/fonts/Oswald/Oswald.eot');
+  src: url('/fonts/Oswald/Oswald.eot#iefix') format('embedded-opentype'), url('fonts/Oswald/Oswald.ttf') format('truetype');
+}
+.price {
+  height: 60vw;
+}
+.price .firstPortTxt {
+  margin-top: 4vw !important;
+}
+.price .cards {
+  margin-top: 3vw !important;
+  height: 40vw;
+  width: 100%;
+}
+.price .card {
+  height: 35vw;
+  width: 18vw;
+}
+.price .card .card-head {
+  height: 15%;
+  width: 100%;
+  font-family: 'Roboto';
+  font-weight: 100;
+  font-size: 1.6vw;
+  background-color: #f0f0f2;
+}
+.price .card .thePrice {
+  height: 12%;
+  width: 100%;
+}
+.price .card .thePrice .priceText {
+  font-family: 'Oswald';
+  font-weight: bolder;
+  font-size: 4.2vw;
+  margin-left: 1.2vw !important;
+  margin-right: 0.2vw !important;
+}
+.price .card .thePrice .otherOne {
+  font-family: 'Oswald';
+  font-size: 3.2vw;
+  margin-top: 0.1vh !important;
+}
+.price .card .thePrice .otherTwo {
+  font-size: 1.1vw;
+  font-family: 'Roboto';
+  color: #50cbbe;
+  position: relative;
+  bottom: 1.1vw;
+}
+.price .card .line {
+  margin-top: 2vw !important;
+}
+.price .card .line #line {
+  width: 5vw;
+  height: 0.2vw;
+  background-color: #50cbbe;
+}
+.price .card .middleText {
+  height: 40%;
+  margin-top: 10% !important;
+  margin-left: 0.7vw !important;
+  color: #3b3b3b;
+  font-size: 1vw;
+  font-family: 'Roboto';
+  font-weight: 100;
+}
+.price .card .submitBtn {
+  width: 100%;
+  height: 20%;
+}
+.price .card .submitBtn .sbmt {
+  border: none;
+  height: 3.5vw;
+  width: 11vw;
+  color: #3b3b3b;
+  font-size: 0.8vw;
+  font-family: 'Roboto';
+  font-weight: bolder;
+  background-color: #ffffff;
+  border: 1px solid #3b3b3b;
+}

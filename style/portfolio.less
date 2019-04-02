@@ -1,0 +1,43 @@
+@import 'fonts.less';
+
+@heightPortfolio:30vh;
+@RobotoFont:'Roboto-Thin';
+@RobotoBlack:'Roboto-Black';
+@FirstFontSize:2.2vw;
+@FirstFontColor:#3b3b3b;
+
+@font-face{
+    .font(@RobotoFont);
+}
+@font-face{
+    .font(@RobotoBlack);
+}
+
+.price{
+    .firstPortTxt{
+        font-family: @RobotoFont;
+        font-weight: 100;
+        font-size: @FirstFontSize;
+        color: @FirstFontColor;
+    }
+    .secPortTxt{
+        font-family: @RobotoBlack;
+        font-weight: bolder;
+        font-size: @FirstFontSize/2;
+    }
+}
+
+.portfolio{
+    height: @heightPortfolio;
+    .firstPortTxt{
+        font-family: @RobotoFont;
+        font-weight: 100;
+        font-size: @FirstFontSize;
+        color: @FirstFontColor;
+    }
+    .secPortTxt{
+        font-family: @RobotoBlack;
+        font-weight: bolder;
+        font-size: @FirstFontSize/2;
+    }
+}

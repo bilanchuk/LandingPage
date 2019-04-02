@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto/Roboto.eot');
+  src: url('/fonts/Roboto/Roboto.eot#iefix') format('embedded-opentype'), url('fonts/Roboto/Roboto.ttf') format('truetype');
+}
+.map {
+  height: 80vh;
+  background-image: url(../images/Map.png);
+}
+.map #form {
+  background-color: white;
+  height: 65%;
+  width: 25%;
+  position: relative;
+  left: 15%;
+  font-family: 'Roboto';
+  font-weight: 100;
+}
+.map #form div {
+  margin-bottom: 5% !important;
+}
+.map #form #formFirst {
+  font-size: 2vw;
+  color: #3b3b3b;
+}
+.map #form .inp input {
+  width: 18vw;
+  text-align: center;
+  font-size: 1vw;
+}
